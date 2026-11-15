@@ -19,5 +19,11 @@
         "url": "https://github.com/krate-apps/fleet-theme-ocean/releases/download/v$version/org.fleet.theme.ocean-linux-amd64.tar.gz"
       }
     }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-theme-ocean/releases/download/v1.0.0/org.fleet.theme.ocean-linux-amd64.tar.gz",
+      "hash": "sha256:b68384afeac8ff137807038c5195b60375ebfca9b25ae8407cb6bce192004fdf"
+    }
   }
 }
