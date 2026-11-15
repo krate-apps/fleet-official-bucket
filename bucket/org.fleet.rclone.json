@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.rclone",
   "name": "Rclone",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Copy or move completed downloads to allowlisted rclone remotes.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-rclone",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-rclone/releases/download/v$version/org.fleet.rclone-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-rclone/releases/download/v1.0.0/org.fleet.rclone-linux-amd64.tar.gz",
+      "hash": "sha256:2213b36f9291ddac73f6c4df73872f453818ddff79002168c5f283753c4aa9f2"
     }
   }
 }
