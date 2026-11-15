@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.discord",
   "name": "Discord",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Notify a Discord channel when torrents are added, finished, or removed.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-discord",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-discord/releases/download/v$version/org.fleet.discord-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-discord/releases/download/v1.0.0/org.fleet.discord-linux-amd64.tar.gz",
+      "hash": "sha256:42101e5602ba9e0d769eae20d2a4106c6b334e240166b7db0df8df597941774a"
     }
   }
 }
