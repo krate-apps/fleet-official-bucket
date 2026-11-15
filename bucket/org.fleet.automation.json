@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.automation",
   "name": "Automation Rules",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Ordered if/then rules for torrents (label, move, throttle, pause, webhooks).",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-automation",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-automation/releases/download/v$version/org.fleet.automation-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-automation/releases/download/v1.0.0/org.fleet.automation-linux-amd64.tar.gz",
+      "hash": "sha256:e53cb7c0bef567783f6f52517374a5cde4b9f08e400758a566b1abd766626f7c"
     }
   }
 }
