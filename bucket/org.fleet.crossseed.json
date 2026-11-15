@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.crossseed",
   "name": "Cross-seed",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Push completed downloads to other clients for seeding on the same data path.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-crossseed",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-crossseed/releases/download/v$version/org.fleet.crossseed-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-crossseed/releases/download/v1.0.0/org.fleet.crossseed-linux-amd64.tar.gz",
+      "hash": "sha256:976c7cc8521fb6b30e36c87e63bdf105d96b54a5ca667cb2894468ae0dc918d7"
     }
   }
 }
