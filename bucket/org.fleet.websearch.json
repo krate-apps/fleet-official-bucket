@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.websearch",
   "name": "Web Search",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Search torrent sites with packaged or custom templates and enqueue results.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-websearch",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-websearch/releases/download/v$version/org.fleet.websearch-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-websearch/releases/download/v1.0.0/org.fleet.websearch-linux-amd64.tar.gz",
+      "hash": "sha256:fd7278b3dac4d3b166737756eb799b83a602055ae29c1e71962432e45b4d3737"
     }
   }
 }
