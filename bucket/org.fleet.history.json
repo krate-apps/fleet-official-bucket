@@ -19,5 +19,11 @@
         "url": "https://github.com/krate-apps/fleet-ext-history/releases/download/v$version/org.fleet.history-linux-amd64.tar.gz"
       }
     }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-history/releases/download/v1.0.1/org.fleet.history-linux-amd64.tar.gz",
+      "hash": "sha256:6c8ba3abbf9667e9142a8a5e8aab2da977836ef6f9624b90ef1df8b0e7fd5acd"
+    }
   }
 }
