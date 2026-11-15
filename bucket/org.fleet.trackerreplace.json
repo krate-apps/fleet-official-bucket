@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.trackerreplace",
   "name": "Tracker Replace",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Add announce URLs to new or existing torrents.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-trackerreplace",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-trackerreplace/releases/download/v$version/org.fleet.trackerreplace-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-trackerreplace/releases/download/v1.0.0/org.fleet.trackerreplace-linux-amd64.tar.gz",
+      "hash": "sha256:fef3a181dcd500b0a8bc647fc967ba0113a035151637585bd7cd2eb337b465af"
     }
   }
 }
