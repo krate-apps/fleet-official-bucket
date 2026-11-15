@@ -14,7 +14,6 @@ Install from **Extensions** in the Fleet UI, or open a repository for details.
 | [Client Logos](https://github.com/krate-apps/fleet-ext-clientlogos) | `org.fleet.clientlogos` | Show peer client logos in the torrent list. |
 | [Cookies](https://github.com/krate-apps/fleet-ext-cookies) | `org.fleet.cookies` | Shared per-host cookies for extension HTTP requests. |
 | [Cross-seed](https://github.com/krate-apps/fleet-ext-crossseed) | `org.fleet.crossseed` | Push completed downloads to other clients for seeding on the same data path. |
-| [Demo Extension](https://github.com/krate-apps/fleet-ext-demo) | `org.fleet.demo` | Sample extension for SDK discovery demos. |
 | [Discord](https://github.com/krate-apps/fleet-ext-discord) | `org.fleet.discord` | Notify a Discord channel when torrents are added, finished, or removed. |
 | [Disk Cleanup](https://github.com/krate-apps/fleet-ext-diskcleanup) | `org.fleet.diskcleanup` | Report error, stalled, and missing torrents with suggested cleanup actions. |
 | [Duplicate Finder](https://github.com/krate-apps/fleet-ext-duplicates) | `org.fleet.duplicates` | Find duplicate torrents across clients; optional hardlink assist. |

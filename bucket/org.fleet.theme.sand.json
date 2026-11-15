@@ -7,8 +7,7 @@
   "description": "Fleet Sand appearance pack.",
   "homepage": "https://github.com/krate-apps/fleet-theme-sand",
   "source": {
-    "repository": "https://github.com/krate-apps/fleet-theme-sand",
-    "path": "packages/themes/sand"
+    "repository": "https://github.com/krate-apps/fleet-theme-sand"
   },
   "checkver": {
     "github": "krate-apps/fleet-theme-sand"

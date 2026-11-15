@@ -18,7 +18,6 @@
 ```text
 bucket.json                 # id, name, official: true
 bucket/<id>.json            # extension or theme listing
-packages/…                  # optional local trees (dev / offline)
 archives/…                  # optional cached .tar.gz assets
 .github/workflows/          # krate-apps/fleet-bucket-action (validate, hashcheck, excavate)
 ```

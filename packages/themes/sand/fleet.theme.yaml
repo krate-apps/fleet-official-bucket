@@ -1,8 +1,0 @@
-schema: 1
-id: org.fleet.theme.sand
-name: Sand
-description: Fleet Sand appearance pack (installable theme).
-version: 1.0.0
-colorScheme: light
-css: theme.css
-uiThemeId: sand

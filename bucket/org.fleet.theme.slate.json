@@ -7,8 +7,7 @@
   "description": "Fleet Slate appearance pack.",
   "homepage": "https://github.com/krate-apps/fleet-theme-slate",
   "source": {
-    "repository": "https://github.com/krate-apps/fleet-theme-slate",
-    "path": "packages/themes/slate"
+    "repository": "https://github.com/krate-apps/fleet-theme-slate"
   },
   "checkver": {
     "github": "krate-apps/fleet-theme-slate"

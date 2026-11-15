@@ -7,8 +7,7 @@
   "description": "Fleet Ocean appearance pack.",
   "homepage": "https://github.com/krate-apps/fleet-theme-ocean",
   "source": {
-    "repository": "https://github.com/krate-apps/fleet-theme-ocean",
-    "path": "packages/themes/ocean"
+    "repository": "https://github.com/krate-apps/fleet-theme-ocean"
   },
   "checkver": {
     "github": "krate-apps/fleet-theme-ocean"

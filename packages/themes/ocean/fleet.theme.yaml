@@ -1,8 +1,0 @@
-schema: 1
-id: org.fleet.theme.ocean
-name: Ocean
-description: Fleet Ocean appearance pack (installable theme).
-version: 1.0.0
-colorScheme: dark
-css: theme.css
-uiThemeId: ocean
