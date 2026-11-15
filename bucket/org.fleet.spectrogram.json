@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.spectrogram",
   "name": "Spectrogram",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Render audio spectrograms with sox.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-spectrogram",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-spectrogram/releases/download/v$version/org.fleet.spectrogram-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-spectrogram/releases/download/v1.0.0/org.fleet.spectrogram-linux-amd64.tar.gz",
+      "hash": "sha256:bbd5b6669bb2373df185f5bc030b1ceab77d82b16fdc4d5f97dfab33fff40494"
     }
   }
 }
