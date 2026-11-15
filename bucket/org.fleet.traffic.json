@@ -19,5 +19,11 @@
         "url": "https://github.com/krate-apps/fleet-ext-traffic/releases/download/v$version/org.fleet.traffic-linux-amd64.tar.gz"
       }
     }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-traffic/releases/download/v1.0.1/org.fleet.traffic-linux-amd64.tar.gz",
+      "hash": "sha256:ed301163cab3d2a0e5fa54a5867962eb31ab1b9cdeb065756281528ed6219b3f"
+    }
   }
 }
