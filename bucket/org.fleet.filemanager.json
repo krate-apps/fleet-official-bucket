@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.filemanager",
   "name": "File Manager",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Browse and manage files under download roots.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-filemanager",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-filemanager/releases/download/v$version/org.fleet.filemanager-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-filemanager/releases/download/v1.0.0/org.fleet.filemanager-linux-amd64.tar.gz",
+      "hash": "sha256:92fccea186b50b19cd2375fdf257b8d9a33af7fb3c58317912ae281b08bb9435"
     }
   }
 }
