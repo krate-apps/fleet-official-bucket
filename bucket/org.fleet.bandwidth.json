@@ -19,5 +19,11 @@
         "url": "https://github.com/krate-apps/fleet-ext-bandwidth/releases/download/v$version/org.fleet.bandwidth-linux-amd64.tar.gz"
       }
     }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-bandwidth/releases/download/v1.0.0/org.fleet.bandwidth-linux-amd64.tar.gz",
+      "hash": "sha256:378f5186dfa050adc2e4345ba59289a311fd9e06c3b11aaba5e6057c13185924"
+    }
   }
 }
