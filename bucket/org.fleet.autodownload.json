@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.autodownload",
   "name": "Auto Download",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Watch folders and IRC announces to enqueue magnets and torrents.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-autodownload",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-autodownload/releases/download/v$version/org.fleet.autodownload-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-autodownload/releases/download/v1.0.0/org.fleet.autodownload-linux-amd64.tar.gz",
+      "hash": "sha256:be5f78d1c33499cedb6f1ead21a2c2cbbc7aa005c4aaae09a6ea64c8986e2dec"
     }
   }
 }
