@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.cookies",
   "name": "Cookies",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Shared per-host cookies for extension HTTP requests.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-cookies",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-cookies/releases/download/v$version/org.fleet.cookies-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-cookies/releases/download/v1.0.0/org.fleet.cookies-linux-amd64.tar.gz",
+      "hash": "sha256:91de4537b468024d7258ebcd4f52b2d23450af124f12124f3e7bdd8c9fb63f9e"
     }
   }
 }
