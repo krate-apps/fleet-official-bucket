@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.mediainfo",
+  "name": "MediaInfo",
+  "version": "0.1.0",
+  "description": "Inspect media files with MediaInfo.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-mediainfo",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-mediainfo"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-mediainfo"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-mediainfo/releases/download/v$version/org.fleet.mediainfo-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.titlesearch",
+  "name": "Title Search",
+  "version": "0.1.0",
+  "description": "Open external search links from torrent titles.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-titlesearch",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-titlesearch"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-titlesearch"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-titlesearch/releases/download/v$version/org.fleet.titlesearch-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

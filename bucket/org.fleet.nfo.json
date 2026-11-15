@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.nfo",
+  "name": "NFO",
+  "version": "0.1.0",
+  "description": "Find and display release NFO files.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-nfo",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-nfo"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-nfo"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-nfo/releases/download/v$version/org.fleet.nfo-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

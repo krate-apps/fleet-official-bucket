@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.diskcleanup",
+  "name": "Disk Cleanup",
+  "version": "0.1.0",
+  "description": "Report error, stalled, and missing torrents with suggested cleanup actions.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-diskcleanup",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-diskcleanup"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-diskcleanup"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-diskcleanup/releases/download/v$version/org.fleet.diskcleanup-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

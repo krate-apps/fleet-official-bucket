@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.metrics",
+  "name": "Metrics",
+  "version": "0.1.0",
+  "description": "OpenMetrics endpoint for torrents, clients, disk, and jobs.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-metrics",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-metrics"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-metrics"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-metrics/releases/download/v$version/org.fleet.metrics-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+name: hashcheck
+on:
+  pull_request:
+  schedule:
+    - cron: "40 3 * * *"
+  workflow_dispatch:
+jobs:
+  hashcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: krate-apps/fleet-bucket-action/hashcheck@main
+        with:
+          path: .

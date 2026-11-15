@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.xmpp",
+  "name": "XMPP",
+  "version": "0.1.0",
+  "description": "Notify an XMPP contact when a download finishes.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-xmpp",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-xmpp"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-xmpp"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-xmpp/releases/download/v$version/org.fleet.xmpp-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

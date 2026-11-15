@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.duplicates",
+  "name": "Duplicate Finder",
+  "version": "0.1.0",
+  "description": "Find duplicate torrents across clients; optional hardlink assist.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-duplicates",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-duplicates"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-duplicates"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-duplicates/releases/download/v$version/org.fleet.duplicates-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

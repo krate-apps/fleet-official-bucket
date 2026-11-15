@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.publicthrottle",
+  "name": "Public Throttle",
+  "version": "0.2.0",
+  "description": "Limit upload on public-tracker torrents.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-publicthrottle",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-publicthrottle"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-publicthrottle"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-publicthrottle/releases/download/v$version/org.fleet.publicthrottle-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

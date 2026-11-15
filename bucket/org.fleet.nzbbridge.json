@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.nzbbridge",
+  "name": "NZB Bridge",
+  "version": "1.0.0",
+  "description": "Turn SABnzbd/NZBGet completed downloads into torrents and enqueue them via Fleet intake.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-nzbbridge",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-nzbbridge"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-nzbbridge"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-nzbbridge/releases/download/v$version/org.fleet.nzbbridge-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

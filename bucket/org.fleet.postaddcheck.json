@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.postaddcheck",
+  "name": "Post-add Check",
+  "version": "0.1.0",
+  "description": "Re-announce newly added torrents for a short window.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-postaddcheck",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-postaddcheck"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-postaddcheck"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-postaddcheck/releases/download/v$version/org.fleet.postaddcheck-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

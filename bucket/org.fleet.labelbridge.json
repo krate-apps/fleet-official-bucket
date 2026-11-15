@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.labelbridge",
+  "name": "Label Bridge",
+  "version": "0.2.0",
+  "description": "Sync labels across registered clients (one-way or bidirectional).",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-labelbridge",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-labelbridge"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-labelbridge"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-labelbridge/releases/download/v$version/org.fleet.labelbridge-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.portwatch",
+  "name": "Port Watch",
+  "version": "1.0.1",
+  "description": "Check whether the torrent listen port stays reachable and alert when it does not.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-portwatch",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-portwatch"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-portwatch"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-portwatch/releases/download/v$version/org.fleet.portwatch-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

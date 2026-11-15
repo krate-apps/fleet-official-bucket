@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.rssfeeds",
+  "name": "RSS Feeds",
+  "version": "0.2.0",
+  "description": "Poll RSS/Atom feeds with filters and enqueue matching items.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-rssfeeds",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-rssfeeds"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-rssfeeds"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-rssfeeds/releases/download/v$version/org.fleet.rssfeeds-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

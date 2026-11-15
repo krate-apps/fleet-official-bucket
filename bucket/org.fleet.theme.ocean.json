@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "theme",
+  "id": "org.fleet.theme.ocean",
+  "name": "Ocean",
+  "version": "1.0.0",
+  "description": "Fleet Ocean appearance pack.",
+  "homepage": "https://github.com/krate-apps/fleet-theme-ocean",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-theme-ocean",
+    "path": "packages/themes/ocean"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-theme-ocean"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-theme-ocean/releases/download/v$version/org.fleet.theme.ocean-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.bandwidth",
+  "name": "Bandwidth Limits",
+  "version": "1.0.0",
+  "description": "Set per-torrent upload and download rate limits on connected clients.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-bandwidth",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-bandwidth"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-bandwidth"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-bandwidth/releases/download/v$version/org.fleet.bandwidth-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

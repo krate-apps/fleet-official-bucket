@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.screenshots",
+  "name": "Screenshots",
+  "version": "0.1.0",
+  "description": "Extract still frames from video files with ffmpeg.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-screenshots",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-screenshots"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-screenshots"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-screenshots/releases/download/v$version/org.fleet.screenshots-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

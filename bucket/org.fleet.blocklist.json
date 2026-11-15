@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.blocklist",
+  "name": "Blocklist",
+  "version": "0.1.0",
+  "description": "Optional peer blocklist from URL lists; kick matching peers when enabled.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-blocklist",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-blocklist"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-blocklist"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-blocklist/releases/download/v$version/org.fleet.blocklist-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.notifications",
+  "name": "Notifications",
+  "version": "0.1.0",
+  "description": "Torrent notifications via ntfy, Gotify, Slack, Pushover, or email.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-notifications",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-notifications"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-notifications"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-notifications/releases/download/v$version/org.fleet.notifications-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

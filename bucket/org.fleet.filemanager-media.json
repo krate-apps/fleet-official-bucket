@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.filemanager-media",
+  "name": "File Manager Media",
+  "version": "0.2.0",
+  "description": "Preview images and run MediaInfo on files under download roots.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-filemanager-media",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-filemanager-media"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-filemanager-media"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-filemanager-media/releases/download/v$version/org.fleet.filemanager-media-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

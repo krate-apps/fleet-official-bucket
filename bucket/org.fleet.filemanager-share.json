@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.filemanager-share",
+  "name": "File Manager Share",
+  "version": "0.2.0",
+  "description": "Create share links under download roots with TTL and download limits.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-filemanager-share",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-filemanager-share"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-filemanager-share"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-filemanager-share/releases/download/v$version/org.fleet.filemanager-share-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

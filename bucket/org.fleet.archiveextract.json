@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.archiveextract",
+  "name": "Archive Extract",
+  "version": "0.1.0",
+  "description": "Extract .zip and .rar archives under download roots.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-archiveextract",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-archiveextract"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-archiveextract"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-archiveextract/releases/download/v$version/org.fleet.archiveextract-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

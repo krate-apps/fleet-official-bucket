@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.ratio",
+  "name": "Ratio Groups",
+  "version": "0.2.0",
+  "description": "Enforce ratio and seed-time rules by label.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-ratio",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-ratio"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-ratio"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-ratio/releases/download/v$version/org.fleet.ratio-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

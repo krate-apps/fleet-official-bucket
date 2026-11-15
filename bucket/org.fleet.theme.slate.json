@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "theme",
+  "id": "org.fleet.theme.slate",
+  "name": "Slate",
+  "version": "1.0.0",
+  "description": "Fleet Slate appearance pack.",
+  "homepage": "https://github.com/krate-apps/fleet-theme-slate",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-theme-slate",
+    "path": "packages/themes/slate"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-theme-slate"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-theme-slate/releases/download/v$version/org.fleet.theme.slate-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

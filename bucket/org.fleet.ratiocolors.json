@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.ratiocolors",
+  "name": "Ratio Colors",
+  "version": "0.1.0",
+  "description": "Color torrent list rows by ratio thresholds.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-ratiocolors",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-ratiocolors"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-ratiocolors"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-ratiocolors/releases/download/v$version/org.fleet.ratiocolors-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

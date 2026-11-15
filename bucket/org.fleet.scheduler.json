@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.scheduler",
+  "name": "Scheduler",
+  "version": "0.2.0",
+  "description": "Apply weekly bandwidth windows with optional throttle profiles.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-scheduler",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-scheduler"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-scheduler"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-scheduler/releases/download/v$version/org.fleet.scheduler-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

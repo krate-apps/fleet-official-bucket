@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "id": "org.fleet.official",
+  "name": "Fleet Official",
+  "description": "Preconfigured optional bucket for Fleet reference extensions (BKT-002). Disable anytime.",
+  "official": true
+}

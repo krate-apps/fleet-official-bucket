@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.clientlogos",
+  "name": "Client Logos",
+  "version": "0.1.0",
+  "description": "Show peer client logos in the torrent list.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-clientlogos",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-clientlogos"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-clientlogos"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-clientlogos/releases/download/v$version/org.fleet.clientlogos-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

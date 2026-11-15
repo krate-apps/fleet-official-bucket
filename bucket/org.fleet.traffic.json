@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.traffic",
+  "name": "Traffic",
+  "version": "1.0.1",
+  "description": "Track upload and download totals by day, month, year, and tracker.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-traffic",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-traffic"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-traffic"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-traffic/releases/download/v$version/org.fleet.traffic-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

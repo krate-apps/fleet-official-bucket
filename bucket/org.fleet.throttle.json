@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.throttle",
+  "name": "Throttle Profiles",
+  "version": "0.1.0",
+  "description": "Define named throttle profiles and assign them to torrents.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-throttle",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-throttle"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-throttle"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-throttle/releases/download/v$version/org.fleet.throttle-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

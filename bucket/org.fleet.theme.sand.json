@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "theme",
+  "id": "org.fleet.theme.sand",
+  "name": "Sand",
+  "version": "1.0.0",
+  "description": "Fleet Sand appearance pack.",
+  "homepage": "https://github.com/krate-apps/fleet-theme-sand",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-theme-sand",
+    "path": "packages/themes/sand"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-theme-sand"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-theme-sand/releases/download/v$version/org.fleet.theme.sand-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

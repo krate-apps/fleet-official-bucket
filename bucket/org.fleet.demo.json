@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.demo",
+  "name": "Demo Extension",
+  "version": "0.1.0",
+  "description": "Sample extension for SDK discovery demos.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-demo",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-demo"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-demo"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-demo/releases/download/v$version/org.fleet.demo-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

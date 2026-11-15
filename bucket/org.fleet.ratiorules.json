@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.ratiorules",
+  "name": "Ratio Rules",
+  "version": "0.2.0",
+  "description": "Assign labels from tracker or privacy rules for Ratio Groups.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-ratiorules",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-ratiorules"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-ratiorules"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-ratiorules/releases/download/v$version/org.fleet.ratiorules-linux-amd64.tar.gz"
+      }
+    }
+  }
+}

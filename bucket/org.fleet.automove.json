@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "kind": "extension",
+  "id": "org.fleet.automove",
+  "name": "Auto Move",
+  "version": "0.1.0",
+  "description": "Run label and file actions when torrents finish or change state.",
+  "api": ">=1.0.0 <2.0.0",
+  "homepage": "https://github.com/krate-apps/fleet-ext-automove",
+  "source": {
+    "repository": "https://github.com/krate-apps/fleet-ext-automove"
+  },
+  "checkver": {
+    "github": "krate-apps/fleet-ext-automove"
+  },
+  "autoupdate": {
+    "architecture": {
+      "linux-amd64": {
+        "url": "https://github.com/krate-apps/fleet-ext-automove/releases/download/v$version/org.fleet.automove-linux-amd64.tar.gz"
+      }
+    }
+  }
+}
