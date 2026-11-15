@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.trackerlogin",
   "name": "Tracker Login",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Store site credentials and log in to fill the shared cookie jar.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-trackerlogin",
@@ -18,6 +18,12 @@
       "linux-amd64": {
         "url": "https://github.com/krate-apps/fleet-ext-trackerlogin/releases/download/v$version/org.fleet.trackerlogin-linux-amd64.tar.gz"
       }
+    }
+  },
+  "architecture": {
+    "linux-amd64": {
+      "url": "https://github.com/krate-apps/fleet-ext-trackerlogin/releases/download/v1.0.0/org.fleet.trackerlogin-linux-amd64.tar.gz",
+      "hash": "sha256:4a45e6a8c188b5c35754049e6b817b320c28a73d78de4b9b94d10fd78d1b7843"
     }
   }
 }
