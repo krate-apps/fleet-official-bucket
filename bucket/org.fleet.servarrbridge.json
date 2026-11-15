@@ -3,7 +3,7 @@
   "kind": "extension",
   "id": "org.fleet.servarrbridge",
   "name": "Servarr Bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Receive Sonarr/Radarr/Prowlarr/Lidarr webhooks into Fleet intake.",
   "api": ">=1.0.0 <2.0.0",
   "homepage": "https://github.com/krate-apps/fleet-ext-servarrbridge",
@@ -22,8 +22,8 @@
   },
   "architecture": {
     "linux-amd64": {
-      "url": "https://github.com/krate-apps/fleet-ext-servarrbridge/releases/download/v1.0.0/org.fleet.servarrbridge-linux-amd64.tar.gz",
-      "hash": "sha256:774ef6b9e764250032d3d3c5261dfccb6792f28693191515447e54204d2e8325"
+      "url": "https://github.com/krate-apps/fleet-ext-servarrbridge/releases/download/v1.0.1/org.fleet.servarrbridge-linux-amd64.tar.gz",
+      "hash": "sha256:899a96f260867f98f8f77d1a89345836dd9d2ba7b0a9c7d84ce11e1000dfef2f"
     }
   }
 }
